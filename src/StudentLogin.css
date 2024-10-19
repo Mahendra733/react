@@ -1,0 +1,34 @@
+/* Ensure html and body take full height */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Background for the Student Login page */
+  .student-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    flex-direction: column;
+    background-image: url('./assets/stu.jpg'); /* Path to student background */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Don't repeat the image */
+    width: 100vw; /* Full viewport width */
+  }
+  
+  /* Styling for the form */
+  .student-login form {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white form */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .student-login h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
